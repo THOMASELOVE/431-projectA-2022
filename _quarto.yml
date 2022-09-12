@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "431 Project A"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: data.qmd
+        text: Data
+      - href: proposal.qmd
+        text: Proposal
+      - href: analyses.qmd
+        text: Analyses
+      - href: report.qmd
+        text: "Final Report"
+      - text: "Examples & Tips"
+        menu: 
+        - href: exampleA.qmd
+          text: "Project Proposal Example"
+        - href: exampleB.qmd
+          text: "Outline of Analysis Section"
+        - href: check_final.qmd
+          text: "Final Report Checklist"
+    right:
+      - href: https://thomaselove.github.io/431-2022/contact.html
+        text: "Contact Us"
+      - href: https://thomaselove.github.io/431-2022
+        text: "431 Homepage"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+
+editor: source
