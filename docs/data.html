@@ -155,7 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <ul class="dropdown-menu" aria-labelledby="nav-menu-examples--tips">    
         <li>
     <a class="dropdown-item" href="./exampleA.html">
- <span class="dropdown-text">Project Proposal Example</span></a>
+ <span class="dropdown-text">Sample Project A Proposal</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./exampleB.html">
@@ -192,8 +192,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul>
   <li><a href="#what-data-will-i-use" id="toc-what-data-will-i-use" class="nav-link active" data-scroll-target="#what-data-will-i-use">What Data Will I Use?</a></li>
   <li><a href="#developing-the-data-overview" id="toc-developing-the-data-overview" class="nav-link" data-scroll-target="#developing-the-data-overview">Developing the Data: Overview</a></li>
-  <li><a href="#data-development-task-instructions" id="toc-data-development-task-instructions" class="nav-link" data-scroll-target="#data-development-task-instructions">Data Development Task Instructions</a>
-  <ul class="collapse">
   <li><a href="#task-1.-ingest-the-raw-data-into-chr_2022_raw" id="toc-task-1.-ingest-the-raw-data-into-chr_2022_raw" class="nav-link" data-scroll-target="#task-1.-ingest-the-raw-data-into-chr_2022_raw">Task 1. Ingest the raw data into <code>chr_2022_raw</code></a></li>
   <li><a href="#task-2.-filter-your-data-to-the-counties-in-the-states-youve-chosen" id="toc-task-2.-filter-your-data-to-the-counties-in-the-states-youve-chosen" class="nav-link" data-scroll-target="#task-2.-filter-your-data-to-the-counties-in-the-states-youve-chosen">Task 2. Filter your data to the counties in the states you’ve chosen</a>
   <ul class="collapse">
@@ -202,10 +200,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </ul></li>
   <li><a href="#task-3.-select-five-variables-add-four-required-ones-and-clean-up-chr_2022" id="toc-task-3.-select-five-variables-add-four-required-ones-and-clean-up-chr_2022" class="nav-link" data-scroll-target="#task-3.-select-five-variables-add-four-required-ones-and-clean-up-chr_2022">Task 3. Select five variables, add four required ones, and clean up <code>chr_2022</code></a>
   <ul class="collapse">
-  <li><a href="#the-86-variables-you-must-select-5-from" id="toc-the-86-variables-you-must-select-5-from" class="nav-link" data-scroll-target="#the-86-variables-you-must-select-5-from">The 86 variables you must select 5 from</a></li>
-  <li><a href="#some-important-notes" id="toc-some-important-notes" class="nav-link" data-scroll-target="#some-important-notes">Some important notes</a></li>
+  <li><a href="#the-84-variables-you-must-select-five-from" id="toc-the-84-variables-you-must-select-five-from" class="nav-link" data-scroll-target="#the-84-variables-you-must-select-five-from">The 84 variables you must select five from</a></li>
+  <li><a href="#some-important-notes-for-task-3" id="toc-some-important-notes-for-task-3" class="nav-link" data-scroll-target="#some-important-notes-for-task-3">Some important notes for Task 3</a></li>
+  <li><a href="#caution-some-variables-have-lots-of-missing-data" id="toc-caution-some-variables-have-lots-of-missing-data" class="nav-link" data-scroll-target="#caution-some-variables-have-lots-of-missing-data">Caution: Some Variables have Lots of Missing Data</a></li>
   </ul></li>
-  <li><a href="#cleaning-your-variables" id="toc-cleaning-your-variables" class="nav-link" data-scroll-target="#cleaning-your-variables">Cleaning Your Variables</a>
+  <li><a href="#how-to-clean-your-selected-variables" id="toc-how-to-clean-your-selected-variables" class="nav-link" data-scroll-target="#how-to-clean-your-selected-variables">How To Clean Your Selected Variables</a>
   <ul class="collapse">
   <li><a href="#the-binary-category" id="toc-the-binary-category" class="nav-link" data-scroll-target="#the-binary-category">The Binary Category</a></li>
   <li><a href="#ratios-that-need-converting" id="toc-ratios-that-need-converting" class="nav-link" data-scroll-target="#ratios-that-need-converting">Ratios That Need Converting</a></li>
@@ -215,18 +214,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </ul></li>
   <li><a href="#task-4.-create-factors-for-two-of-the-five-variables-you-chose-in-task-2" id="toc-task-4.-create-factors-for-two-of-the-five-variables-you-chose-in-task-2" class="nav-link" data-scroll-target="#task-4.-create-factors-for-two-of-the-five-variables-you-chose-in-task-2">Task 4. Create factors for two of the five variables you chose in Task 2</a>
   <ul class="collapse">
-  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#additional-task-4-notes" id="toc-additional-task-4-notes" class="nav-link" data-scroll-target="#additional-task-4-notes">Additional Task 4 Notes</a></li>
   </ul></li>
   <li><a href="#task-5.-save-and-share-the-final-chr_2022-tibble" id="toc-task-5.-save-and-share-the-final-chr_2022-tibble" class="nav-link" data-scroll-target="#task-5.-save-and-share-the-final-chr_2022-tibble">Task 5. Save and share the final <code>chr_2022</code> tibble</a>
   <ul class="collapse">
-  <li><a href="#notes-1" id="toc-notes-1" class="nav-link" data-scroll-target="#notes-1">Notes</a></li>
+  <li><a href="#additional-task-5-notes" id="toc-additional-task-5-notes" class="nav-link" data-scroll-target="#additional-task-5-notes">Additional Task 5 Notes</a></li>
   </ul></li>
-  <li><a href="#task-6.-provide-a-codebook-for-your-tibble" id="toc-task-6.-provide-a-codebook-for-your-tibble" class="nav-link" data-scroll-target="#task-6.-provide-a-codebook-for-your-tibble">Task 6. <strong>Provide a Codebook for Your Tibble</strong></a>
+  <li><a href="#task-6.-provide-a-codebook-for-your-tibble" id="toc-task-6.-provide-a-codebook-for-your-tibble" class="nav-link" data-scroll-target="#task-6.-provide-a-codebook-for-your-tibble">Task 6. Provide a Codebook for Your Tibble</a>
   <ul class="collapse">
-  <li><a href="#notes-2" id="toc-notes-2" class="nav-link" data-scroll-target="#notes-2">Notes</a></li>
+  <li><a href="#demo-codebook" id="toc-demo-codebook" class="nav-link" data-scroll-target="#demo-codebook">Demo Codebook</a></li>
+  <li><a href="#additional-task-6-notes" id="toc-additional-task-6-notes" class="nav-link" data-scroll-target="#additional-task-6-notes">Additional Task 6 Notes</a></li>
   </ul></li>
-  <li><a href="#task-7.-print-and-summarize-your-tibble" id="toc-task-7.-print-and-summarize-your-tibble" class="nav-link" data-scroll-target="#task-7.-print-and-summarize-your-tibble">Task 7. <strong>Print and Summarize Your Tibble</strong></a></li>
-  </ul></li>
+  <li><a href="#task-7.-print-and-summarize-your-tibble" id="toc-task-7.-print-and-summarize-your-tibble" class="nav-link" data-scroll-target="#task-7.-print-and-summarize-your-tibble">Task 7. Print and Summarize Your Tibble</a></li>
   </ul>
 </nav>
     </div>
@@ -249,7 +248,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<p>Most Recent Update: 2022-09-12 00:12:41.</p>
+<p>Most Recent Update: 2022-09-12 11:20:29.</p>
 <section id="what-data-will-i-use" class="level1">
 <h1>What Data Will I Use?</h1>
 <p>Your Project A will use the 2022 version of the analytic data from County Health Rankings (<strong>CHR</strong>). You have already seen some versions of these data in Labs 02 and 03, but you’ll create and clean a new data set of your own for Project A.</p>
@@ -281,12 +280,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Create a codebook for your <code>chr_2022</code> tibble which briefly but sufficiently describes your selected variables and subjects (counties.)</li>
 <li>Print your <code>chr_2022</code> tibble (to prove it is a tibble) and then provide a modest set of appropriate numerical summaries of each variable.</li>
 </ol>
-</section>
-<section id="data-development-task-instructions" class="level1">
-<h1>Data Development Task Instructions</h1>
 <p>Here are some key additional details for each step of this process. - Please refer to Dr.&nbsp;Love’s materials in the rest of these Project A Instructions, particularly in the Examples &amp; Tips section for more help.</p>
-<section id="task-1.-ingest-the-raw-data-into-chr_2022_raw" class="level2">
-<h2 class="anchored" data-anchor-id="task-1.-ingest-the-raw-data-into-chr_2022_raw">Task 1. Ingest the raw data into <code>chr_2022_raw</code></h2>
+</section>
+<section id="task-1.-ingest-the-raw-data-into-chr_2022_raw" class="level1">
+<h1>Task 1. Ingest the raw data into <code>chr_2022_raw</code></h1>
 <p>Begin an R Project just for Project A, and create an R Markdown file within that project where you will do your data development work. Working from a template, or from your own best understanding of what works well for you, start by loading the packages you’ll need, including the <code>tidyverse</code> and any other packages you plan to use.</p>
 <p>You’ll use <code>read_csv()</code> to ingest your raw <code>.csv</code> file into R and call the resulting tibble <strong>chr_2022_raw</strong>. But as you do this, you’ll need to remove the top row from the .csv within your R code. You should probably look at the raw .csv in Excel or another spreadsheet system so that you know why we need to do this.</p>
 <p>To accomplish this, use the <code>skip = 1</code> command within your <code>read_csv()</code>. Sample code follows:</p>
@@ -294,13 +291,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>data_url <span class="ot">&lt;-</span> </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://www.countyhealthrankings.org/sites/default/files/media/document/analytic_data2022.csv"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>chr_2022_raw <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(data_url, <span class="at">skip =</span> <span class="dv">1</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>chr_2022_raw <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(data_url, <span class="at">skip =</span> <span class="dv">1</span>, <span class="at">guess_max =</span> <span class="dv">4000</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                         <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>You should at this point have a chr_2022_raw tibble with 3194 rows and 725 columns.</p>
 <p>Finally, to complete Task 1, you should now write code to restrict the <code>chr_2022_raw</code> data to only include the <strong>3082</strong> rows which have “county_ranked” values of 1, since the other rows will not be used by us in this project.</p>
 </section>
-<section id="task-2.-filter-your-data-to-the-counties-in-the-states-youve-chosen" class="level2">
-<h2 class="anchored" data-anchor-id="task-2.-filter-your-data-to-the-counties-in-the-states-youve-chosen">Task 2. Filter your data to the counties in the states you’ve chosen</h2>
+<section id="task-2.-filter-your-data-to-the-counties-in-the-states-youve-chosen" class="level1">
+<h1>Task 2. Filter your data to the counties in the states you’ve chosen</h1>
 <p>Now we’ll filter the <strong>chr_2022_raw</strong> data containing 3082 rows and 725 columns to a new tibble called <code>chr_2022</code> which contains the 200-400 rows (counties) you will actually study in your project. Each row you’ll keep should have a <code>county_ranked</code> value of 1, as we’ve ensured at the end of Task 1. To go from 3082 counties to our final sample, you will need to select 4-6 states, including Ohio.</p>
 <p>Your selection must include:</p>
 <ul>
@@ -311,8 +309,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li>Do not include any of the six “states” (District of Columbia, Connecticut, Delaware, Hawaii, New Hampshire and Rhode Island) with fewer than 12 counties.</li>
 </ul>
-<section id="states-you-are-permitted-to-select" class="level3">
-<h3 class="anchored" data-anchor-id="states-you-are-permitted-to-select">States You Are Permitted to Select</h3>
+<section id="states-you-are-permitted-to-select" class="level2">
+<h2 class="anchored" data-anchor-id="states-you-are-permitted-to-select">States You Are Permitted to Select</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>chr_2022_raw <span class="sc">|&gt;</span> <span class="fu">count</span>(statecode, state) <span class="sc">|&gt;</span> <span class="fu">filter</span>(n <span class="sc">&gt;</span> <span class="dv">12</span>) <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n =</span> <span class="dv">50</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -372,8 +370,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>After making your selection, and applying it, you should have a tibble called <code>chr_2022</code> which contains 200-400 rows, and 725 columns. In Task 3, we’ll cut down those columns.</p>
 </section>
-<section id="additional-task-2-notes" class="level3">
-<h3 class="anchored" data-anchor-id="additional-task-2-notes">Additional Task 2 Notes</h3>
+<section id="additional-task-2-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-task-2-notes">Additional Task 2 Notes</h2>
 <ol type="1">
 <li>Choose your subset of states with the knowledge in mind that some variables in the CHR data are not available for some counties, and that each state you select must have more than 12 counties.</li>
 <li>You should have some reason for selecting the states that you do, and you will need to describe that reason in a complete sentence or two in your proposal and your final report.</li>
@@ -382,53 +380,60 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 </section>
 </section>
-<section id="task-3.-select-five-variables-add-four-required-ones-and-clean-up-chr_2022" class="level2">
-<h2 class="anchored" data-anchor-id="task-3.-select-five-variables-add-four-required-ones-and-clean-up-chr_2022">Task 3. Select five variables, add four required ones, and clean up <code>chr_2022</code></h2>
+<section id="task-3.-select-five-variables-add-four-required-ones-and-clean-up-chr_2022" class="level1">
+<h1>Task 3. Select five variables, add four required ones, and clean up <code>chr_2022</code></h1>
 <p>Next, you will identify variables from the your existing <code>chr_2022</code> tibble describing your selected sample of counties to include only nine variables (columns) instead of the 725 you should have at the start of Task 3. These nine variables must include:</p>
 <ul>
 <li>the five-digit fips code for the county, which will be a convenient ID variable, which is called <code>fipscode</code> in the raw data.</li>
 <li>the name of the county, which will be useful for labeling and identifying the counties, and which is called <code>county</code> in the raw data.</li>
 <li>the <code>state</code>, which will be a multi-categorical (with 4-6 categories) variable</li>
 <li>the <code>county_ranked</code> variable, which tells us whether the row should be included in our data (all of the rows you include in your data should have <code>county_ranked == 1</code>)</li>
-<li>followed by five variables you select from the 86 variables in the raw CHR data set that are listed as <code>vXXX_rawvalue</code> (note: to select the entire group of 86 variables, you might try <code>select(ends_with("rawvalue"))</code> as part of a pipe of the data.)</li>
+<li>followed by five variables you select from the 84 variables in the raw CHR data set that we have listed below.
+<ul>
+<li>Each of these must be of the form <code>vXXX_rawvalue</code> (note: to select the entire group of 86 variables, you might try <code>select(ends_with("rawvalue"))</code> as part of a pipe.)</li>
+<li>Note that we have not included two of these 86 in our list below of the 84 variables you can choose from.</li>
+</ul></li>
 </ul>
-<section id="the-86-variables-you-must-select-5-from" class="level3">
-<h3 class="anchored" data-anchor-id="the-86-variables-you-must-select-5-from">The 86 variables you must select 5 from</h3>
-<p>The <a href="https://www.countyhealthrankings.org/sites/default/files/media/document/2022%20Analytic%20Documentation.pdf">2022 CHR Analytic Data Documentation</a> file (PDF), and the <a href="https://www.countyhealthrankings.org/sites/default/files/media/document/DataDictionary_2022.pdf">2022 Data Dictionary</a> file (also PDF) are crucial here, as those are the ones that explain what the available variables mean, and how they should be labeled.</p>
-<p>You should look up each measure you wind up selecting to learn more about it at <a href="https://www.countyhealthrankings.org/2022-measures">this CHR 2022 Measures link</a>.</p>
-<p>You must select your five variables from the 85 variables in the raw (.csv) data file listed below. We show them here in the order in which they appear in the raw file. The listing “v001” in this table actually refers to the variable named “<strong>v001_rawvalue</strong>”.</p>
+<section id="the-84-variables-you-must-select-five-from" class="level2">
+<h2 class="anchored" data-anchor-id="the-84-variables-you-must-select-five-from">The 84 variables you must select five from</h2>
+<p>You must select your five variables from the 84 variables in the raw (.csv) data file listed below. We show them here in the order in which they appear in the raw file. The listing “v001” in this table actually refers to the variable named “<strong>v001_rawvalue</strong>”.</p>
 <pre><code> [1] "v001" "v002" "v036" "v042" "v037" "v009" "v011" "v133" "v070" "v132"
 [11] "v049" "v134" "v045" "v014" "v085" "v004" "v088" "v062" "v005" "v050"
 [21] "v155" "v168" "v069" "v023" "v024" "v044" "v082" "v140" "v043" "v135"
 [31] "v125" "v124" "v136" "v067" "v137" "v173" "v147" "v127" "v128" "v129"
 [41] "v144" "v145" "v060" "v061" "v139" "v083" "v138" "v039" "v143" "v003"
-[51] "v122" "v131" "v021" "v149" "v159" "v160" "v167" "v169" "v151" "v063"
-[61] "v065" "v141" "v142" "v171" "v172" "v015" "v161" "v148" "v158" "v156"
-[71] "v153" "v154" "v166" "v051" "v052" "v053" "v054" "v055" "v081" "v080"
-[81] "v056" "v126" "v059" "v057" "v058"</code></pre>
+[51] "v122" "v021" "v149" "v159" "v160" "v167" "v169" "v151" "v063" "v065"
+[61] "v141" "v142" "v171" "v172" "v015" "v161" "v148" "v158" "v156" "v153"
+[71] "v154" "v166" "v051" "v052" "v053" "v054" "v055" "v081" "v080" "v056"
+[81] "v126" "v059" "v057" "v058"</code></pre>
 <p>For example, <code>v001_rawvalue</code> shows the raw values for the premature death measure. If you select this variable, it is up to you to use the documentation in the two PDF files I have linked to, as well as the information on the County Health Rankings website, to get a reasonable understanding of what the variable measures, and how it was collected.</p>
+<p>The <a href="https://www.countyhealthrankings.org/sites/default/files/media/document/2022%20Analytic%20Documentation.pdf">2022 CHR Analytic Data Documentation</a> file (PDF), and the <a href="https://www.countyhealthrankings.org/sites/default/files/media/document/DataDictionary_2022.pdf">2022 Data Dictionary</a> file (also PDF) are crucial here, as those are the ones that explain what the available variables mean, and how they should be labeled.</p>
+<p>As noted below, you will also need look up each measure you wind up selecting to learn more about it at <a href="https://www.countyhealthrankings.org/2022-measures">this CHR 2022 Measures link</a>.</p>
 </section>
-<section id="some-important-notes" class="level3">
-<h3 class="anchored" data-anchor-id="some-important-notes">Some important notes</h3>
+<section id="some-important-notes-for-task-3" class="level2">
+<h2 class="anchored" data-anchor-id="some-important-notes-for-task-3">Some important notes for Task 3</h2>
 <ol type="1">
-<li><p>Be sure to read this entire Data page (especially the material on Cleaning Your Variables) before selecting your variables, so you are aware of some features of the data we disclose below.</p></li>
-<li><p>The five variables you select must be five different variables selected from the 86 variables in the CHR data set that are listed as <code>vXXX_rawvalue</code>. Some of the variables in that set of 86 are better choices than others, based on the criteria in the next few notes.</p></li>
-<li><p>Each of the variables you select should be of some actual interest to you on its own, in terms of either providing a health outcome of interest, or potentially providing useful information about a feature of the county that might relate to that health outcome. Your five selected quantitative variables, selected by you from the 79 available “raw value” CHR variables, will need be treated as follows:</p></li>
+<li><p>Be sure to read this entire Data page (especially the material on How to Clean Your Variables) before selecting your variables, so you are aware of some features of the data we disclose below.</p></li>
+<li><p>The five variables you select must be five different variables selected from the 84 variables listed above. Some variables in that set of 84 are better choices than others.</p></li>
+<li><p>Each variable you select should be of some interest to you on its own, in terms of either providing a health outcome of interest, or potentially providing useful information about a feature of the county that might relate to that health outcome. Your five selected quantitative variables, selected by you from the 84 available “raw value” CHR variables, will need be treated as follows:</p></li>
 </ol>
 <ul>
 <li>variable 1 will be treated as quantitative, and as an outcome of interest</li>
-<li>two others (variables 2 and 3) will also be treated as quantitative predictors of interest for variable 1</li>
+<li>two others (variables 2 and 3) will be treated as quantitative predictors of interest for variable 1</li>
 <li>variable 4 will be categorized into 2 mutually exclusive and collectively exhaustive levels to create a binary categorical variable of interest in predicting variable 1 (this is a terrible idea in practical work.)
 <ul>
-<li>Note that exactly one of the variables in the data (<code>v124</code> about drinking water violations) is already a binary (1 = Yes, 0 = No) variable (all other variables are quantitative.) You are permitted to use <code>v124</code> as your variable 4, if you like. <code>v124</code> may not be used as anything other than variable 4 in your work.</li>
+<li>Exactly one of the variables in the data (<code>v124</code> about drinking water violations) is already a binary (1 = Yes, 0 = No) variable (all other variables are quantitative.) You are permitted to use <code>v124</code> as your variable 4, if you like. <code>v124</code> may not be used as anything other than variable 4 in your work.</li>
 </ul></li>
 <li>variable 5 will be categorized into 3-5 mutually exclusive and collectively exhaustive levels to create a multi-categorical variable of interest in predicting variable 1 (this is almost as bad as what we’ll do to variable 4 in practical work)</li>
 <li>the <code>state</code> will serve as another multi-categorical (with 4-6 categories) predictor of variable 1, so this will also be part of your tibble</li>
 </ul>
 <ol start="4" type="1">
-<li>Each of the five variables you select must have data for at least 75% of the counties in each state you plan to study. This is something you will have to check on, in R, and you’ll have to present the code, and demonstrate with complete English sentences that you’ve verified this to be true for each of your five selections.</li>
+<li>Each of the five variables you select must have data for at least 75% of the counties in each state you plan to study. This is something you will have to check on, in R, and you’ll have to present the code, and demonstrate with complete English sentences that you’ve verified this. The use of a tool (or more than one) from the <code>naniar</code> package to do this checking is encouraged.</li>
 </ol>
-<p>The variables listed below are those with more than 10% missing values across all 3082 ranked counties in the US. While you are welcome to use any of these variables, you may want to look elsewhere to avoid problems with the “minimum 75% complete data” requirement. (Note that variable <code>v170_rawvalue</code> was not listed above since it is missing for all counties in the data.)</p>
+</section>
+<section id="caution-some-variables-have-lots-of-missing-data" class="level2">
+<h2 class="anchored" data-anchor-id="caution-some-variables-have-lots-of-missing-data">Caution: Some Variables have Lots of Missing Data</h2>
+<p>The variables listed below have more than 10% missing values across all 3082 ranked counties in the US. While you are welcome to use any of these variables, you may want to look elsewhere to avoid problems with the “minimum 75% complete data” requirement. (Note that variable <code>v170_rawvalue</code> is missing for all counties in the data so we don’t allow its use.)</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -511,24 +516,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tbody>
 </table>
 <ol start="5" type="1">
-<li><p>Note that the descriptions in the table above (and in the tables below) associated with each variable are available as the first (deleted) row in the .csv file, and are also specified in the <a href="https://www.countyhealthrankings.org/sites/default/files/media/document/2022%20Analytic%20Documentation.pdf">2022 CHR Analytic Data Documentation</a> file.</p></li>
-<li><p>Across your complete set of 4-6 selected states, the raw versions of each of your five selected variables must have at least <strong>ten</strong> distinct non-missing values. Again, you’ll need to show R code to do this checking, and demonstrate with complete English sentences that you have checked this to be true.</p></li>
+<li><p>The descriptions provided in these instructions associated with each variable are available as the first (deleted in R) row in the .csv file, and are also specified in the <a href="https://www.countyhealthrankings.org/sites/default/files/media/document/2022%20Analytic%20Documentation.pdf">2022 CHR Analytic Data Documentation</a> PDF file.</p></li>
+<li><p>Across your complete set of 4-6 selected states, the raw versions of each of your five selected variables must have at least <strong>ten</strong> distinct non-missing values. You’ll need to show R code to do this checking (the best choice is often <code>Hmisc::describe</code> since you’ll run that anyway), and you’ll need to demonstrate with a complete English sentence or two that you have checked this to be true.</p></li>
 </ol>
 </section>
 </section>
-<section id="cleaning-your-variables" class="level2">
-<h2 class="anchored" data-anchor-id="cleaning-your-variables">Cleaning Your Variables</h2>
-<p>Check your five variables on the lists below. You should find all five of your selected variables on the list somewhere.</p>
+<section id="how-to-clean-your-selected-variables" class="level1">
+<h1>How To Clean Your Selected Variables</h1>
+<p>Find each of your five selected variables on one of the lists below.</p>
 <ul>
-<li>If you plan to use the variable as quantitative, do what is suggested below as part of your data development work, and use that version in your codebook.</li>
-<li>If you plan to use the variable as a categorical predictor, we still suggest you make the appropriate change to the original quantitative version as indicated below.</li>
+<li>If you plan to use the variable as quantitative, do what is suggested below as part of your data development work, rename the variable appropriately, and use that version in your codebook.</li>
+<li>If you plan to use the variable as a categorical predictor, you should still make the appropriate change to the original quantitative version as indicated below.</li>
 </ul>
-<section id="the-binary-category" class="level3">
-<h3 class="anchored" data-anchor-id="the-binary-category">The Binary Category</h3>
+<section id="the-binary-category" class="level2">
+<h2 class="anchored" data-anchor-id="the-binary-category">The Binary Category</h2>
 <p><code>v124</code> is about Drinking Water Violations, is the only binary (1 = Yes, 0 = No) variable in the data. (all other variables are quantitative.) You are permitted to use <code>v124</code> as your variable 4, if you like. <code>v124</code> may not be used as anything other than variable 4 in your work.</p>
 </section>
-<section id="ratios-that-need-converting" class="level3">
-<h3 class="anchored" data-anchor-id="ratios-that-need-converting">Ratios That Need Converting</h3>
+<section id="ratios-that-need-converting" class="level2">
+<h2 class="anchored" data-anchor-id="ratios-that-need-converting">Ratios That Need Converting</h2>
 <p>These variables are specified as providers per population in the raw data file. You will want to take the reciprocal (1/raw value) to rescale the results in terms of population per provider, which should be much more interpretable.</p>
 <ul>
 <li>You’ll note that this rescaled ratio is also provided in the raw file if you want it, for example, for primary care physicians, <code>v004_rawvalue</code> is providers per population, but <code>v004_other_data_1</code> is the ratio of population (residents) per provider.</li>
@@ -554,18 +559,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <td style="text-align: right;">v088</td>
 <td style="text-align: left;">Dentists</td>
 </tr>
-<tr class="even">
-<td style="text-align: right;">v131</td>
-<td style="text-align: left;">Other primary care providers (not recommended)</td>
-</tr>
 </tbody>
 </table>
 <ul>
-<li>We don’t recommend using variable <code>v131</code> in Project A because of the large number of counties with very small numbers of these providers listed.</li>
+<li>Note that we don’t allow the use of variable <code>v131</code> in Project A because of the large number of counties with very small numbers of these providers listed.</li>
 </ul>
 </section>
-<section id="variables-that-should-be-rescaled" class="level3">
-<h3 class="anchored" data-anchor-id="variables-that-should-be-rescaled">Variables that should be rescaled</h3>
+<section id="variables-that-should-be-rescaled" class="level2">
+<h2 class="anchored" data-anchor-id="variables-that-should-be-rescaled">Variables that should be rescaled</h2>
 <table class="table">
 <colgroup>
 <col style="width: 12%">
@@ -603,8 +604,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tbody>
 </table>
 </section>
-<section id="variables-that-are-proportions-should-be-converted-to-percentages" class="level3">
-<h3 class="anchored" data-anchor-id="variables-that-are-proportions-should-be-converted-to-percentages">Variables that are Proportions should be converted to Percentages</h3>
+<section id="variables-that-are-proportions-should-be-converted-to-percentages" class="level2">
+<h2 class="anchored" data-anchor-id="variables-that-are-proportions-should-be-converted-to-percentages">Variables that are Proportions should be converted to Percentages</h2>
 <p>Each of the variables listed below are proportions (between 0 and 1). Before you use them in any analyses, please <strong>multiply them by 100</strong> in your data development (using mutate) to turn their values into percentages (between 0 and 100) and this will seriously ease the interpretation of slopes and transformations for these variables.</p>
 <table class="table">
 <colgroup>
@@ -802,12 +803,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </table>
 <ul>
 <li>If you are interested in studying race and ethnicity and their impact on a health outcome, these data aren’t particularly well suited to a detailed look. Instead we suggest using <code>v126</code> to incorporate this dimension as a predictor (or its inverse, 1 - <code>v126</code>), rather than including any of the other race/ethnicity variables, specifically <code>v053</code>, <code>v054</code>, <code>v055</code>, <code>v056</code>, <code>v080</code>, or <code>v081</code>. This is because there’s more variation in the <code>v126</code> data across the reported counties. Again, a serious look at the impact of race/ethnicity is beyond the scope of Project A.</li>
-<li>Note that variable <code>v021</code> has more missing data than <code>v168</code>, should you be trying to choose between them.</li>
+<li>Note that variable <code>v021</code> generally has more missing data than <code>v168</code>, should you be trying to choose between them.</li>
 </ul>
 </section>
-<section id="variables-that-should-be-ok-as-is" class="level3">
-<h3 class="anchored" data-anchor-id="variables-that-should-be-ok-as-is">Variables that should be OK as is</h3>
-<p>The variables listed below should be fine as they are. Most of them are ratios, although a few are averages or indexes. The main issue for these variables is correctly specifying the units of measurement (note that the indexes don’t have units.)</p>
+<section id="variables-that-should-be-ok-as-is" class="level2">
+<h2 class="anchored" data-anchor-id="variables-that-should-be-ok-as-is">Variables that should be OK as is</h2>
+<p>The variables listed below should be useful as they are. Most of them are ratios, although a few are averages or indexes. The main issue for these variables is correctly specifying the units of measurement (note that the indexes don’t have units.)</p>
 <table class="table">
 <colgroup>
 <col style="width: 8%">
@@ -948,26 +949,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </table>
 <ul>
 <li>Note that variable <code>v141</code> has more missing data than <code>v142</code>, should you be trying to choose between them.</li>
+<li>For any variable you select, be sure that it has at least 75% complete data across the counties in your selected states, and within each state you have selected.</li>
 </ul>
 </section>
 </section>
-<section id="task-4.-create-factors-for-two-of-the-five-variables-you-chose-in-task-2" class="level2">
-<h2 class="anchored" data-anchor-id="task-4.-create-factors-for-two-of-the-five-variables-you-chose-in-task-2">Task 4. Create factors for two of the five variables you chose in Task 2</h2>
+<section id="task-4.-create-factors-for-two-of-the-five-variables-you-chose-in-task-2" class="level1">
+<h1>Task 4. Create factors for two of the five variables you chose in Task 2</h1>
 <p>Create new categorical variables (factors) based on two of your previously selected variables, and add them to your <strong>chr_2022</strong> tibble. You’ll also retain the original (quantitative) versions of those two variables, so your tibble will now have 11 variables.</p>
 <p>As mentioned, you will need to provide code to categorize two of your variables. Specifically…</p>
 <ul>
 <li>variable 4 will be categorized into 2 mutually exclusive and collectively exhaustive levels to create a binary categorical variable of interest in predicting variable 1 (this is a terrible idea in practical work.)</li>
 <li>variable 5 will be categorized into 3-5 mutually exclusive and collectively exhaustive levels to create a multi-categorical variable of interest in predicting variable 1 (this is almost as bad as what we’ll do to variable 4 in practical work.)</li>
 </ul>
-<section id="notes" class="level3">
-<h3 class="anchored" data-anchor-id="notes">Notes</h3>
+<section id="additional-task-4-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-task-4-notes">Additional Task 4 Notes</h2>
 <ol type="1">
-<li>You will need to verify that all levels (categories) in each of your categorical variables contain at least 10 counties. Using <code>tabyl</code> is a good approach to check that this is true.</li>
+<li>You will need to verify that all levels (categories) in each of your two categorical variables contain at least 10 counties. Using <code>tabyl</code> is a good approach to check that this is true.</li>
+<li>Verify that your <code>state</code> variable and your two categorical variables are now recognized by R as <strong>factors</strong> with appropriate levels.</li>
 </ol>
 </section>
 </section>
-<section id="task-5.-save-and-share-the-final-chr_2022-tibble" class="level2">
-<h2 class="anchored" data-anchor-id="task-5.-save-and-share-the-final-chr_2022-tibble">Task 5. Save and share the final <code>chr_2022</code> tibble</h2>
+<section id="task-5.-save-and-share-the-final-chr_2022-tibble" class="level1">
+<h1>Task 5. Save and share the final <code>chr_2022</code> tibble</h1>
 <p>Your final <strong>chr_2022</strong> tibble will thus contain 200-400 rows (counties) and 11 variables. You’ll save this tibble as an R data set (.Rds file) and share that file with us as part of your proposal.</p>
 <p>In your R Markdown file, you will need to present all code necessary to take the original .csv data file and wind up with your <code>chr_2022</code> tibble so that we can run that code and get the same results you do.</p>
 <p>Your main data set for analysis then should be gathered into a tibble called <strong>chr_2022</strong> containing the following information in this order:</p>
@@ -990,8 +993,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>If <code>v009_rawvalue</code> (about adult smoking) is to be one of your categorical variables, then you should include both the original quantitative value (renamed <code>adult_smoking_raw</code>) and your categorical variable that you’ll actually use in analyses, which should be named <code>adult_smoking_cat</code>.</li>
 </ul>
 <p><strong>Save the Tibble</strong>: You should provide code that saves your tibble as an R data set into your R Project, with the file name <strong>chr_2022_YOURNAME.Rds</strong>. If you like, you can store this <code>.Rds</code> file in a <code>data</code> subdirectory within your R Project.</p>
-<section id="notes-1" class="level3">
-<h3 class="anchored" data-anchor-id="notes-1">Notes</h3>
+<section id="additional-task-5-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-task-5-notes">Additional Task 5 Notes</h2>
 <ol type="1">
 <li>After your cleaning is done, each row in your <code>chr_2022</code> tibble should contain all of the counties within the 4-6 states you are studying, and no other counties should be included in your tibble. All rows of your <code>chr_2022</code> tibble must display a <code>county_ranked</code> value of 1.</li>
 <li>If data for some counties are missing in the raw data for one or more of your variables, then these data should be indicated as missing (using NA) in the tibble.</li>
@@ -999,26 +1002,165 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 </section>
 </section>
-<section id="task-6.-provide-a-codebook-for-your-tibble" class="level2">
-<h2 class="anchored" data-anchor-id="task-6.-provide-a-codebook-for-your-tibble">Task 6. <strong>Provide a Codebook for Your Tibble</strong></h2>
+<section id="task-6.-provide-a-codebook-for-your-tibble" class="level1">
+<h1>Task 6. Provide a Codebook for Your Tibble</h1>
 <p>Next, you will provide a codebook as part of your R Markdown file (and HTML/PDF output) that specifies the name of each variable in your tibble and its definition. After you select your variables, use the <a href="https://www.countyhealthrankings.org/2022-measures">County Health Rankings website’s 2022 Measures list</a>, and in particular the linked information on that page for full descriptions, definitions and limitations of the variables you have selected.</p>
-<section id="notes-2" class="level3">
-<h3 class="anchored" data-anchor-id="notes-2">Notes</h3>
+<section id="demo-codebook" class="level2">
+<h2 class="anchored" data-anchor-id="demo-codebook">Demo Codebook</h2>
+<p>The start of your Codebook might look something like this (note that I’ve used states you’re not allowed to use here.) Here, I’ve split the codebook into two parts - first describing the states, and then the variables.</p>
+<p>My states are:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">State Name</th>
+<th style="text-align: center;">Abbreviation</th>
+<th style="text-align: right;"># of counties</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Ohio</td>
+<td style="text-align: center;"><code>OH</code></td>
+<td style="text-align: right;">88</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Connecticut</td>
+<td style="text-align: center;"><code>CT</code></td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Delaware</td>
+<td style="text-align: center;"><code>DE</code></td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Hawaii</td>
+<td style="text-align: center;"><code>HI</code></td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">New Hampshire</td>
+<td style="text-align: center;"><code>NH</code></td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Rhode Island</td>
+<td style="text-align: center;"><code>RI</code></td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>Total (6 states)</strong></td>
+<td style="text-align: center;">–</td>
+<td style="text-align: right;"><strong>118</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Remember that you need to have 4-6 states, including Ohio, with 200-400 counties, so my choice of states wouldn’t be acceptable.</p>
+<p>My variables are:</p>
+<table class="table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 55%">
+<col style="width: 16%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Variable</th>
+<th style="text-align: center;">Description</th>
+<th style="text-align: center;">Original Name</th>
+<th style="text-align: center;"># Missing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><code>fipscode</code></td>
+<td style="text-align: center;">five-digit identifying code for state and county</td>
+<td style="text-align: center;"><code>fipscode</code></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><code>county</code></td>
+<td style="text-align: center;">name of the county</td>
+<td style="text-align: center;"><code>county</code></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>state</code></td>
+<td style="text-align: center;">postal abbreviation for the state</td>
+<td style="text-align: center;"><code>state</code></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><code>poorfair</code></td>
+<td style="text-align: center;">(variable 1: outcome) % of adults reporting fair or poor health (age-adjusted).</td>
+<td style="text-align: center;"><code>v002_rawvalue</code></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>fluvax</code></td>
+<td style="text-align: center;">(variable 2) % of fee-for-service (FFS) Medicare enrollees that had an annual flu vaccination.</td>
+<td style="text-align: center;"><code>v155_rawvalue</code></td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><code>infmort</code></td>
+<td style="text-align: center;">(variable 3) Infant deaths (within 1 year) per 1,000 live births.</td>
+<td style="text-align: center;"><code>v129_rawvalue</code></td>
+<td style="text-align: center;">31</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>discyouth_raw</code></td>
+<td style="text-align: center;">% of teens and young adults ages 16-19 who are neither working nor in school.</td>
+<td style="text-align: center;"><code>v149_rawvalue</code></td>
+<td style="text-align: center;">44</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><code>homicide_raw</code></td>
+<td style="text-align: center;">Deaths due to homicide per 100,000 population.</td>
+<td style="text-align: center;"><code>v015_rawvalue</code></td>
+<td style="text-align: center;">48</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><code>discyouth_cat</code></td>
+<td style="text-align: center;">(variable 4) Low (below A%) vs.&nbsp;High (A% or higher) based on <code>discyouth_raw</code></td>
+<td style="text-align: center;"><code>v149_rawvalue</code></td>
+<td style="text-align: center;">44</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><code>homicide_cat</code></td>
+<td style="text-align: center;">(variable 5) Low (below B), Medium (between B and C), High (above C) based on <code>homicide_raw</code></td>
+<td style="text-align: center;"><code>v015_rawvalue</code></td>
+<td style="text-align: center;">48</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A% is the median value for <code>discyouth_raw</code></li>
+<li>B and C represent the tertiles of <code>homicide_raw</code>.</li>
+</ul>
+<p>Remember that you need to have at least 75% complete cases for each variable, so several of my variables here wouldn’t be acceptable given this selection of states.</p>
+</section>
+<section id="additional-task-6-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-task-6-notes">Additional Task 6 Notes</h2>
 <ol type="1">
-<li><p>Be sure to include a description for each of the 11 variables (4 required including <code>county_ranked</code> + 5 you select + 2 categorical versions you create) in your final tibble, not just the ones that you wind up using in your analyses.</p></li>
-<li><p>Include a description of what the cut points are for the two categorical variables you create, and specify how those cut points were chosen.</p></li>
+<li><p>Be sure to include a description for each of the 11 variables (4 required including <code>county_ranked</code> + 5 you select + 2 categorical versions you create) in your codebook for your final tibble. The descriptions I’ve used here come from the <a href="https://www.countyhealthrankings.org/2022-measures">County Health Rankings website’s 2022 Measures list</a> site, which is what you should use, as well.</p></li>
+<li><p>Include a description of what the cut points are for the two categorical variables you create, and specify how those cut points were chosen, as I have done above - you should include the actual numbers, not just A, B and C.</p></li>
+<li><p>Tools from the <code>naniar</code> package, especially the <code>miss_var_summary()</code> tool, can be of help in preparing this codebook.</p></li>
 </ol>
 </section>
 </section>
-<section id="task-7.-print-and-summarize-your-tibble" class="level2">
-<h2 class="anchored" data-anchor-id="task-7.-print-and-summarize-your-tibble">Task 7. <strong>Print and Summarize Your Tibble</strong></h2>
+<section id="task-7.-print-and-summarize-your-tibble" class="level1">
+<h1>Task 7. Print and Summarize Your Tibble</h1>
 <ol type="1">
-<li><p><strong>Print the Tibble</strong>: You will then prove that your tibble is in fact a tibble and not just a data frame by listing it, so that the first 10 rows are printed, and the columns are appropriately labeled.</p></li>
-<li><p><strong>Numerical Summaries</strong>: You will then demonstrate main numerical summaries from the tibble by running the following summaries.</p></li>
+<li><p><strong>Print the Tibble</strong>: You will then prove that your tibble is in fact a tibble and not just a data frame by listing it, so that the first 10 rows are printed, and the columns are appropriately labeled. The command you want is just <strong><code>chr_2022</code></strong>.</p></li>
+<li><p><strong>Numerical Summaries</strong>: You will then demonstrate main numerical summaries from the tibble by running some of the following summaries.</p></li>
 </ol>
 <ul>
-<li><code>Hmisc::describe</code> on the whole tibble (all 11 variables: which is what you’ll do for the proposal.)</li>
-<li>Note that in the project report, there are two additional requirements.
+<li>At a minimum in the proposal, you will need to show the results of <code>Hmisc::describe</code> run on the whole tibble. This can also be used to demonstrate that you have at least 10 distinct values for each quantitative variable (variables 1-3) in your data set.</li>
+<li>You may need an additional summary to prove that you have at least 75% complete data within each state for each variable.</li>
+<li>You may need an additional summary to demonstrate that there are at least 10 observations within each level of each of your categorical variables.</li>
+<li>Note that in the project report, there are two additional requirements, so you might consider them now.
 <ul>
 <li><code>mosaic::favstats</code> on each of your quantitative variables (so variables 1, 2, and 3 and the original versions of variables 4 and 5)</li>
 <li><code>janitor::tabyl</code> on your categorical variables 4 and 5 as well as on <code>state</code>.</li>
@@ -1026,7 +1168,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

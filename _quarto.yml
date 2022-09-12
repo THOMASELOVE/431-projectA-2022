@@ -20,7 +20,7 @@ website:
       - text: "Examples & Tips"
         menu: 
         - href: exampleA.qmd
-          text: "Project Proposal Example"
+          text: "Sample Project A Proposal"
         - href: exampleB.qmd
           text: "Outline of Analysis Section"
         - href: check_final.qmd

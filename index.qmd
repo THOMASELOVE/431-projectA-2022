@@ -13,6 +13,7 @@ knitr::opts_chunk$set(comment = NA)
 - [The Data page](data.qmd) contains information on the data you'll use, and on the required cleaning and development of your final project tibble. You'll need to complete this cleaning to complete the Proposal.
 - The [Proposal page](proposal.qmd) describes the proposal, which you will submit in mid-October, according to the deadline on the [Course Calendar](https://thomaselove.github.io/431-2022/calendar.html). 
     - You can (and should) do all of the work for the Proposal in **September**, and completing it by the end of the month will definitely help you with Quiz 1.
+    - To encourage an early start, proposals submitted **prior to Monday 2021-10-03 at noon** will be reviewed quickly by Dr. Love and the TAs, and if a redo is required, you'll hear back quickly enough that you should be able to accomplish it before the final proposal deadline, and thus still have a chance to earn full credit.
 - [The Analyses page](analyses.qmd) contains information on the analyses you'll need to include in your final submission after completing the development of your tibble.
 - The [Final Report page](report.qmd) describes the elements of the final Project A submission (the report, the video and the self-evaluation) that you will build in **October** and provides submission instructions.
 - The Examples & Tips section includes information on sample work and other tips we've prepared to help you through Project A.
@@ -27,7 +28,7 @@ knitr::opts_chunk$set(comment = NA)
     - The final submission is due at the end of October, and includes:
         - a report in R Markdown, and knitted to HTML
         - a short video which highlights some of your key findings from the report
-        - a self-evaluation, which you'll complete after submitting the report and video
+        - a self-evaluation form, which you'll complete after submitting the report and video
 - **The Data**: You will be working with data from the 2022 edition of [County Health Rankings](https://www.countyhealthrankings.org/). 
     - These data describe most counties in the United States. Counties are located within states in the US. There are 88 counties, for instance, in Ohio.
     - The data are available now online with extensive additional information available at the [County Health Rankings website](https://www.countyhealthrankings.org/2022-measures).
