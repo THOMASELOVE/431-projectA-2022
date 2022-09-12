@@ -30,7 +30,7 @@ This list is not comprehensive. These aren't the only things that Dr. Love and t
 21. The project demonstrates that all five variables of interest have been cleaned in accordance with the [instructions specified here](data.qmd) (for example, proportions are presented/interpreted as percentages.)
 22. Analyses 1, 2, and 3 are done on complete cases for the relevant variables, and the number of rows used in each Analysis matches up with the previously described county counts, less the counties with missing values on the variables used in that analysis.
 23. The three main functions from the broom package: tidy, glance and augment are used appropriately in the Analyses.
-24. The predictor used in Analysis 1 was identified as a quantitative predictor in the codebook, or in the description of predictors following the codebook.
+24. The predictor used in Analysis 1 was identified as a quantitative predictor in the codebook, or in the description of predictors following the codebook, and has at least 15 distinct values in the final tibble.
 25. The predictor used in Analysis 2 was created as a categorical predictor correctly in the data development section, using the number of levels and names for those levels that are used in Analysis 2.
 26. The order of levels for the predictor in Analysis 2 is appropriate (for binary predictors, any order is fine if it is clear, for an ordered multi-category variable, the order matters.)
 27. The categorical predictor in Analysis 2 shows the same levels as are specified in the codebook, and in the description of predictors following the codebook.

@@ -248,7 +248,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<p>Most Recent Update: 2022-09-12 15:10:02.</p>
+<p>Most Recent Update: 2022-09-12 15:28:46.</p>
 <section id="what-data-will-i-use" class="level1">
 <h1>What Data Will I Use?</h1>
 <p>Your Project A will use the 2022 version of the analytic data from County Health Rankings (<strong>CHR</strong>). You have already seen some versions of these data in Labs 02 and 03, but you’ll create and clean a new data set of your own for Project A.</p>
@@ -419,7 +419,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <ul>
 <li>variable 1 will be treated as quantitative, and as an outcome of interest</li>
-<li>two others (variables 2 and 3) will be treated as quantitative predictors of interest for variable 1</li>
+<li>two others (variables 2 and 3) will be treated as quantitative predictors of interest for variable 1
+<ul>
+<li>Each of your quantitative variables (1, 2 and 3) must have <strong>at least</strong> 15 distinct values within your final tibble.</li>
+</ul></li>
 <li>variable 4 will be categorized into 2 mutually exclusive and collectively exhaustive levels to create a binary categorical variable of interest in predicting variable 1 (this is a terrible idea in practical work.)
 <ul>
 <li>Exactly one of the variables in the data (<code>v124</code> about drinking water violations) is already a binary (1 = Yes, 0 = No) variable (all other variables are quantitative.) You are permitted to use <code>v124</code> as your variable 4, if you like. <code>v124</code> may not be used as anything other than variable 4 in your work.</li>
@@ -964,7 +967,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="additional-task-4-notes" class="level2">
 <h2 class="anchored" data-anchor-id="additional-task-4-notes">Additional Task 4 Notes</h2>
 <ol type="1">
-<li>You will need to verify that all levels (categories) in each of your two categorical variables contain at least 10 counties. Using <code>tabyl</code> is a good approach to check that this is true.</li>
+<li>You will need to verify that all levels (categories) in each of your two categorical variables contain at least ten counties. Using <code>tabyl</code> is a good approach to check that this is true.</li>
 <li>Verify that your <code>state</code> variable and your two categorical variables are now recognized by R as <strong>factors</strong> with appropriate levels.</li>
 </ol>
 </section>
@@ -1157,9 +1160,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p><strong>Numerical Summaries</strong>: You will then demonstrate main numerical summaries from the tibble by running some of the following summaries.</p></li>
 </ol>
 <ul>
-<li>At a minimum in the proposal, you will need to show the results of <code>Hmisc::describe</code> run on the whole tibble. This can also be used to demonstrate that you have at least 10 distinct values for each quantitative variable (variables 1-3) in your data set.</li>
+<li>At a minimum in the proposal, you will need to show the results of <code>Hmisc::describe</code> run on the whole tibble. This can also be used to demonstrate that you have at least 15 distinct values for each quantitative variable (variables 1-3) in your data set.</li>
 <li>You may need an additional summary to prove that you have at least 75% complete data within each state for each variable.</li>
-<li>You may need an additional summary to demonstrate that there are at least 10 observations within each level of each of your categorical variables.</li>
+<li>You may need an additional summary to demonstrate that there are at least ten observations within each level of each of your categorical variables.</li>
 <li>Note that in the project report, there are two additional requirements, so you might consider them now.
 <ul>
 <li><code>mosaic::favstats</code> on each of your quantitative variables (so variables 1, 2, and 3 and the original versions of variables 4 and 5)</li>
