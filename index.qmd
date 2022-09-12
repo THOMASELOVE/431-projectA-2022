@@ -88,3 +88,6 @@ I am primarily interested in your learning something interesting, useful and eve
 6. The ability to comment on your work within code, and in written and oral presentation.
 7. The ability to build a Markdown-based report and to give a short presentation based on key findings from that report.
 
+# Questions?
+
+If you have questions, let us know about them on Campuswire using the **projectA** folder, or speak with Dr. Love before or after class, or discuss them with the TAs during office hours.
