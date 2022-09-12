@@ -12,7 +12,7 @@ You will submit a proposal document to Canvas (both in R Markdown and HTML) prov
 
 - You will need to have completed all seven Tasks listed on [the Data page](data.qmd) in order to finish the proposal, but none of the work described on [the Analysis page](analysis.qmd).
 - All of the work needed in this proposal can be accomplished in September, and doing so will help you with Quiz 1. 
-- To encourage an early start, proposals submitted **prior to Monday 2021-10-03 at noon** will be reviewed quickly by Dr. Love and the TAs, and if a redo is required, you'll hear back quickly enough that you should be able to accomplish it before the final proposal deadline, and thus still have a chance to earn full credit.
+- To encourage an early start, proposals submitted to Canvas **prior to Monday 2021-10-03 at noon** will be reviewed quickly by Dr. Love and the TAs, and if a redo is required, you'll hear back quickly enough that you should be able to accomplish it before the final proposal deadline, and thus still have a chance to earn full credit.
 - Dr. Love created a [Sample Project A proposal](https://github.com/THOMASELOVE/431-projectA-sample-proposal) which should serve as your template for writing the proposal. 
 
 ### Proposal Requirements
@@ -36,13 +36,14 @@ The files may be found in [our Github Repository](https://github.com/THOMASELOVE
     - This file is also part of the [431-data repository](https://github.com/THOMASELOVE/431-data) we've used for labs and other data and code, so you can also get it from there.
 - The resulting HTML file can be viewed at <https://rpubs.com/TELOVE/projA-sample-proposal-431-2022>, which may be easier for you to read and will also show you what your final result should look like.
 
-### Notes
+### Submission Instructions
 
-1. Be sure that your proposal includes your name (names if you are working with a partner) as the author in R Markdown.
+- Your proposal (R Markdown and HTML file) should be submitted to Canvas. 
+- Be sure that your proposal includes your name (names if you are working with a partner) as the author in R Markdown.
+- If you are working with a partner, exactly one of you should submit the materials to Canvas, and the other partner should submit a text document (Word or PDF is fine) to Canvas that reads: "My name is [YOUR NAME]. I am working on Project A with [INSERT FULL NAME OF YOUR PARTNER], and they will submit the materials for the proposal."
 
-2. Should you decide to work in a pair on this project, you will specify that in the "proposal" stage, and you're stuck with that choice for the rest of Project A. If you are working with a partner, exactly one of you should submit the materials to Canvas, and the other partner should submit a text document (Word or PDF is fine) to Canvas that reads: "My name is [YOUR NAME]. I am working on Project A with [INSERT FULL NAME OF YOUR PARTNER], and they will submit the materials for the proposal."
 
-### Submission and Grading
+### Grading
 
 - After the deadline, the TAs and Dr. Love will review your submissions quickly to ensure that your proposed plan meets the requirements for this project, and either approve the plan, or request changes. 
 - If changes are requested, you'll have a very short time window (at most 24 hours) to make those changes and resubmit until your plan is, eventually, approved. 
