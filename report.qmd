@@ -12,7 +12,9 @@ knitr::opts_chunk$set(comment = NA)
 
 1. **The Report** You will submit a polished report in both R Markdown and HTML augmenting the work you developed in the Proposal addressing all of the issues described in the Proposal and now adding in the Analytic Tasks and Conclusions material. You should also submit your main data file (`chr_2022_YOURNAME.Rds`).
 
-Note that there is a [checklist for the final report](check_final.qmd) as part of the [Examples & Hints](check_final.qmd) page that includes many things we'll be looking for in grading. It's well worth your time to review the checklist before submitting your work.
+**NEW** Dr. Love has provided a [Full Project A Sample](exampleC.qmd), actually four of them (each using a different theme, but otherwise identical) which includes some revised proposal materials, followed by the outline for the analyses.
+
+Note that there is a [checklist for the final report](check_final.qmd) as part of the [Examples & Tips](check_final.qmd) page that includes many things we'll be looking for in grading. It's well worth your time to review the checklist before submitting your work.
 
 2. **The Video** You will produce a video in mp4 format of no more than 3 minutes in length if you're working alone, and of no more than 5 minutes in length between you if you are working in a pair. In this video, you will describe what you believe to be the most important findings for your choice of two of the three analytic tasks you have completed, while explaining your process of cleaning and managing the data as much as you believe is necessary for people to understand and evaluate your conclusions.
     - If you are working alone on the project, begin your presentation by introducing yourself and describing your sample (which states you used and specifying the research questions you'll be addressing in your discussion.)

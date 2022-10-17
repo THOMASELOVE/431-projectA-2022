@@ -21,6 +21,8 @@ website:
         menu: 
         - href: exampleA.qmd
           text: "Sample Project A Proposal"
+        - href: exampleC.qmd
+          text: "Full Project A Sample (4 Themes)"
         - href: exampleB.qmd
           text: "Outline of Analysis Section"
         - href: check_final.qmd
