@@ -12,7 +12,17 @@ knitr::opts_chunk$set(comment = NA)
 
 1. **The Report** You will submit a polished report in both R Markdown and HTML augmenting the work you developed in the Proposal addressing all of the issues described in the Proposal and now adding in the Analytic Tasks and Conclusions material. You should also submit your main data file (`chr_2022_YOURNAME.Rds`).
 
-**NEW** Dr. Love has provided a [Full Project A Sample](exampleC.qmd), actually four of them (each using a different theme, but otherwise identical) which includes some revised proposal materials, followed by the outline for the analyses.
+**NEW** Dr. Love has provided a [Full Project A Sample](exampleC.qmd), actually four of them (each using a different theme, but otherwise identical) which includes some revised proposal materials, followed by the outline for the analyses. A list of all of the changes from the "proposal" example to this "full project" example [is provided here](https://github.com/THOMASELOVE/431-classes-2022/blob/main/projectA/changes_from_proposal.md). The bottom line is that, ideally, everyone will now have **the same 9 Sections** in this revised Sample Project in their Final Project A, as indicated in the [Full Project A Sample](exampleC.qmd).
+
+1. Preliminaries
+2. Data Development
+3. Our Analytic Tibble
+4. Codebook
+5. Biggest Challenge
+6. Analysis 1
+7. Analysis 2
+8. Analysis 3
+9. Session Information
 
 Note that there is a [checklist for the final report](check_final.qmd) as part of the [Examples & Tips](check_final.qmd) page that includes many things we'll be looking for in grading. It's well worth your time to review the checklist before submitting your work.
 

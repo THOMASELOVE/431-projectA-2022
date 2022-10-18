@@ -7,4 +7,4 @@ chr_2022_raw <- read_csv(data_url, skip = 1, guess_max = 4000,
                          show_col_types = FALSE) |> 
   filter(county_ranked == 1)
 
-chr_2022_raw |> filter(state %in% c("OH", "IN", "KY", "MI" )) |> nrow()
+chr_2022_raw |> filter(state %in% c("OH", "AL", "MA", "MD", "UT")) |> nrow()
